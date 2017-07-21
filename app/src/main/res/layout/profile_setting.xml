@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/profile_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@+id/profileBox" android:background="#ffffd200" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:orientation="vertical" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="140.0dip">
+
+            <com.songu.happie.view.OvalImageView
+                android:id="@+id/user_profile"
+                android:layout_width="100.0dip"
+                android:layout_height="100.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/male"
+                android:scaleType="centerCrop"
+                fresco:srcCompat="@drawable/male" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@+id/userName" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/yourupvotes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@+id/user_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/upvote_slide" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center" android:id="@+id/your_smiles" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="You Upvoted" />
+            <TextView android:textSize="14.0sp" android:textColor="#fffdd639" android:layout_gravity="center" android:id="@+id/up_vote_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="#ffe3e3e3" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/yourdownvotes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/downvote_slide" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center" android:id="@+id/your_frowns" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="You Downvoted" />
+            <TextView android:textSize="14.0sp" android:textColor="#fffdd639" android:layout_gravity="center" android:id="@+id/down_vote_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

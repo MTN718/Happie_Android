@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout android:id="@+id/swipeRefresh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@+id/db1_root" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <include layout="@layout/add_joke_toolbar" />
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/close" android:padding="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select Language" android:drawableRight="@drawable/up_arrow" android:layout_weight="0.0" />
+            <ScrollView android:id="@+id/scrollViewAddJoke" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center|top" android:orientation="vertical" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:orientation="vertical" android:id="@+id/addJokeView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/both_block" android:background="#fff0f0f0" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/text_box" android:background="#fff0f0f0" android:paddingTop="50.0dip" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/text_img" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:contentDescription="" />
+                                <TextView android:textSize="16.0sp" android:textColor="#ff676767" android:gravity="center" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Text Joke" />
+                            </LinearLayout>
+                            <View android:background="#ffc6c6c6" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/select_photo" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/upload_image" android:background="@drawable/joke_upload" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="53.0dip" android:layout_marginBottom="26.0dip" android:contentDescription="@null" />
+                                <ImageView android:id="@+id/set_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                                <com.songu.happie.view.OvalImageView android:id="@+id/jokes_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@null"/>
+                                <TextView android:textSize="16.0sp" android:textColor="#ff676767" android:gravity="center" android:id="@+id/image_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-32.0dip" android:text="Upload Image" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/add_text_joke" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <EditText android:textSize="16.0sp" android:textColor="#ff676767" android:gravity="top" android:layout_gravity="top" android:id="@+id/adding_textjoke" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="200.0dip" android:hint="Type here...." android:inputType="textMultiLine" />
+                        </LinearLayout>
+                        <EditText android:textSize="16.0sp" android:textColor="#ff676767" android:gravity="top" android:layout_gravity="center" android:id="@+id/add_joke_desc" android:background="#ffffffff" android:padding="10.0sp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="100.0dip" android:hint="Enter a few lines about your post ..." android:inputType="textCapSentences" />
+                        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/open" android:padding="20.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select Language" android:drawableRight="@drawable/down_arrow" android:layout_weight="0.0" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                            <TextView android:textSize="10.0sp" android:gravity="center" android:background="#ffe8e7e7" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select one option from the dropdown to indicate what language your joke is in." android:layout_weight="0.0" />
+                            <LinearLayout android:background="#ffc6c6c6" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#fff0f0f0" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                                <TextView android:textSize="12.0sp" android:gravity="left|clip_vertical" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Post Contains Adult Content" android:layout_weight="2.0" />
+                                <Switch android:id="@+id/mySwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="ON" android:textOff="OFF" android:thumb="@drawable/customswitchselector" android:switchTextAppearance="@style/x" android:track="@drawable/custom_track" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#fff0f0f0" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                                <TextView android:textSize="10.0sp" android:gravity="center|clip_vertical" android:id="@+id/belowtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Turn on if your post contains nudity or profanity that may make other users uncomfortable when viewing in public." android:layout_weight="2.0" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <RelativeLayout android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <Button android:id="@+id/submit_jokes" android:background="#ffffd200" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Submit Joke" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

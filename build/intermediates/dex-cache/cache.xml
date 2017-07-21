@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\38a0aecfa8eac08053a45a43c5a4e97e02cecbc7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a9bc3e11fbff8e0d503ff795c12c73e1a6fad7a9">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_836d7cd7a5a0c60feedb50bf2a188fd53aceba3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\455e74e1aa648932ae1c23ecb6c514ea695fe4ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b84a791dc9bcda50cb84e4498e0502b3e4dfd47d">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_1838d854a103449b66609000883c3f60c7a7c20c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\d65ef5b5544597499d55170a4029fd9825d2252e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a71be5f29a1c1e3fd3e84472742668f101a5b936">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_7e8f3aa095f36991092f96121b7f71a79b906e44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\b1b2faaa9df26a8416b90a17e3199b06684e83ff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f909161e9bac1dd36538a275f06cae462082316a">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_cf998448e9a2ac7e56473396fc484defc97dce8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\e44b516c39d4f7a8d60930c46c512ec5eea015a8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="dbbba1fc0f6c51382c3fa1f9223d1f6f9144f359">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_8fc973ffe64469c4851fcde90569946bc4961342.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\5d0c50aa688e517faee7fc87169d1935eaf4d1ff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="424e509954db08079f78b20947e2cf120c045e48">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_b6ac8b9b87fedb466e099f973c4863539545446c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\f5c96c72fd0527ae2fc512d5d862a728a0d4af55\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="543cbd7526b5bf05a5a1be344c53b1994f22a04f">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_163d9b3c9611b5059065935f19e336ee0678c2ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\13644c74183a043981f0953b4149e720a7f9d54a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="314299924c4866a8fea850a6ab10a7751fbce79d">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_e167771821e6c41f2b831bc107a47884d8d31265.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\df8d6a480e88e3fb9abc32ab11a02ab96fb06cdb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="eb9817e26186e1a267cdd14211742ecc793de32e">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_842ec742a67178f2533c1dba00a71ba1cca10d30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\b19dca2a649217ca1e507f19eb0a9ec892b54829\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_bfabdae00303894d0efdd917eaebf4b6bab954ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\8baede17a8448d405888b88f41a1ba11d2b20e46\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="db939a450ea2a721db84e774bf108e20c44a8a1d">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_e764fe46ec014311309fa930612230124a60553f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\7eb6dee0b8d0833f7fec01c7f6aff696634fc388\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_f87557da698ff1266f19620337435b9e4627f573.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\193740173cbfd55e5f3db4036f06fce0d74d07d7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2737331564e0084fc0eb30ba500564a6dbe5e98f">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_9d493b8fce6249742cefb30251c3aaea32135e1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\ec4c3a48a6678e4a1e107e4eb0332918702c08e9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_4bfd209e83252f18435b8003d7bba9cceda808b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\48873391a0aeb91f92835f01686163654944002e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ba90907329e4ed429307d39490927b456838bf08">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_e740f00a94ed4fdcd562c742bea528b09c1c8fb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\4d36ee227f39032994e0725d66bb4d6f9c924345\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_cf312fe44645cbe05a537a12e0d7c8921bf69aab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\d9e5837c1ccde8c3c5d45225bd882937c44863f2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3f813cc0713085e46735bcabf9def2ffb6419de7">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_0b83fd5cf2b9a12c7eb7d43ee362cbc23ccd5dde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\344ec24dc5fc0e80e57b26b55278a2bdc5d7127e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_0d33d280450ce3dc422dbdb920696beb46398e64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\e62dc9c77cdc05fcb71f667cfca32d1673adc080\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="338791f0ad4a30593b69a9d083380ddb6789dd6a">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_a46832cfb3c7dc71be23dd4c984d88df23854fab.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_148d9da34b729f26a3077e235c76193bf5151666\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\a724253f11178a6c65d7fdee2332ab332ef163a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a3d07dfddc7c3c7547fb953847589d586f1e2077">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_2a558cb889b6e07e18e55f1f5608fe135da6d668.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\cea532f15b98af0d54a15c2a491cd6159233940e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_7eedded8da8d63760fd1e583d023b0829d9076c0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_b782ae46d736fda832b5acd061395e306bf2b506\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\8a1694c11d88f5b8182e01b8b1fbf69ee0954583\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="587840a157b50a6380d814a7a5a87b76118405e2">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_c46543dbdf49ae2b4f1d72e2efcc5d11790528cb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.android\build-cache\334ea0e1ffdfae101e78a6eb6641f5c8faac16f7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a10aba138c880fa31a44cff689ea67e5e7b2f87a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Tarun\AndroidProject\Happie Repo\app\libs\libs.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f4c2c9f2407bd4e20b140f8e2efe2162e7119aa1">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\libs_b44220d52541ee0b49f889615d934e0fa0062368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\7d00b4c8ffb969913d9cbdf20f6267178c5b2958\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_588b8b0478bad01d0d7257aeca20f7d813664e2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\aab1c4c8f57aaec32851878aa45c0e335e76b234\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2a2d9cd43adbe7599a78f2293273a77881c1909a">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_b8430f263da6d088fcf9f1c69328830bfbd2a5cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\88fc2ea4e60464faf709ce0d122731d74ec83964\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="240e5a7c620376184f3168cfdd36315b97b1fe07">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_d63b670ea2886979375aeb9155feca91a475d93c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0752312c7751442e835c2a1a1f9e2ae6ff81a95d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\93a7e4016dc2dac6a487591914e7b7046ade27da\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_f012a397665a970f246e34ad9f93b5e600951085.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\172f1564d655a867c74bc1136d7c575096c26339\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9a6350134db98fb39e212ddca5f0bad9280e8f3f">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_094893ca92210eeed4579d91dc9e3a990d8bb205.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\dab9fb73fc8a69b59b0c27f0cb13a5dac5e7dfd1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="976b0a037981a05e685415093c67ad73c94d4846">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_ae0eec72e670697347bc5ac074912bbde7e43926.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4_b953ad43463bfb1d89cf57288b7fab23f457841e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_ca99862c55856e1733ff9016ccf6f0aff9c6af9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\ecd1cf2da5657fd3b5585c16a3ed90419908795f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="79a435f1c45ac04593a5134d70da983305584e90">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_567ac9dd012a34d2e0e3bc17db0aa272755a6cf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\cbcc0f6d0d64a292b3981f48cf140684305f1c10\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="acd4f9fad8500386084346a88ca47e2b66e84ffd">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_780021fd2b57e68ffc21136d6c2be7919ccb4799.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\1f73799e4f713c1e61900da7a46d2f165f988572\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5c6a0af36142b32d1f81ab099b73e90a25e360e2">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_88058751697ff02c2407e2ca369af76d1cebbbeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\2bfdad1f8c64e17fb1689ca818dba5a955fe8d0c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="86e2c2399cfd7f8271b535b0e7d8ec092d0c6335">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_5805e2e386ca157c5aa150b0604ef202551f2f1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\a002bc41c675044e6fa9e0f261298d5ae54b8faa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2df23fb8581e8503db6e33739b450f9eb4a8b30a">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_3d43c72c10c4aae06a736b1491128dff1fdfa2c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\a35b3ef7a1e10a510396ac1e14de295fed27099b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_9b8322e168dcc8ad500b23e3b4f0e4a2c4de8304.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\0dd235d22f5a530d32276f41f86ed23c5d102d59\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f2bae22c4925830cc03e81f4911f62b445bf132f">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_9f664cc1d9be1a352ab53d5d44df16282f33d275.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.android\build-cache\a89f99075c0fbd35235f890c749867d2f84f2322\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc573fd7267616b4f86e3f018b4ad576de480b67\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\7f8d919f349486097d094d664c1c2ee5aea314a6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3560fc891bbecd8982acbace15ccead59c3fedd1">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_ef65db3307a502eefd30e352ce07989e410c41d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\06f4806f8e7ed7dfd47ebef566d6c20662e25506\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_91ad48cce2d0be7ebb38715a63794eb3c1b99eee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\bdfa87c8b4f5f2966660b1d4cd0fab6783a546fe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_8ebfcac803f2196a08be118935d8d24af1267e13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\85384fa4281c52881efc26b7482a4e8bddbf9267\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_7ff8ed8a02b0b8a9ec1273a853ffd4d397e40754.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\7c96fe75f0c65b7abefe5ee0d95c4aaaa6386970\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2c1d9fbe7d2f686b3dcdbc3f63a983a211401ca3">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_b432db77d095dbee2ccdd6c19590741c077182b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\22a68bd5edfac2be88f800a580788ac0f14f18bc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_cae2983082323e33caeacd02ed1fd500eb305254.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_c6f95ec19e2df99df382707155f4fb10d0833a06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\854b6aaa485ef85a78aea316b6793d9d596df1ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4262bcd49b19d558c241bf8c68470fcc6fa1ac84">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_b0527fa24c8aba305754da814bb2695d2f93baf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\bd18ab1d842f8e06d527114dfac808cdadb7fcbf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cdfe6f00bbbe6bf590b4306017d485d845ffc7e5">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_a5af399db081638b7a844af8df4ab287dd960f6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\748f3280926f1c9a03044de8b97e735ff2c88625\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="03711df0c11eb771a2115c76db9e271eddea1bb8">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_99d90ebfecee8899cb168b6eba80392f8fc2244f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\c1cc6caa0ebd07bf66e4a3b7b0ef742ea0fcd1c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1fd6dc27f1ebe5bdbf26aa54773d11327f91532b">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_fc25177e926b219f45d9c5fb3f92bad164fbf482.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.3.1\baseLibrary-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2626e02aa9592edd5386d87408e05727303d9ded">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.3.1_0f2cc047d1a11e682f1948e38e4e9911454d5630\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\5b46b4c58d81df3a21ac10134d78f4270a9fdde0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e4ff475aad14939684efd3227ec19cd49e90888f">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_f67546aaef1223fdfd9e0fa787bc69968c3c5a3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\f79e770b4a353fdabe8a685ece5485dfa00df42a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="25c862ccc7a67cc4682ea9cacf08918693e915ef">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_b84d14703f0890711fbc8ef3cb6b4d40e588acbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\207ec25af7751ca8188cdc05a4269f5b4d225da9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d3a27693b28b46af644df8ce765f4252b32c9e87">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_bc8b9e3c3a453e9ee95aee8fda98b169d05c18ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\3a9922b8fdc695a1513bb3d2721e1a1f8867ba09\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0cccf7679b2764a849f90e2b581e2ec8d411679f">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_00bfa6abfb2460401dd9482b15396a631ca4a88f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\b816cb18e1ee8f851623ee01131a9d5f9f4b3280\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7357cef91864a283c8db913866f50bafbe8c6801">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_25e16bc4b194d2ac54c11d04fd45207a2914269e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_95e499d8ce745d79c2ad60830557f1b0208a0b15.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.1\381fc1096ba65040d8e80ea43b2e1d9bad02345e\logging-interceptor-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.1_897098dac9e778c47b26b0b9b6f3454233f6c802\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\8bf86bc47ec5c6142a5bc9eff73bd814cbc3f0c3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4737d9835cf3ea9751f7d6647be60900062d1062">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_a2181211a209e0d5d98c60dc7811e0b7b618a4cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\479db9f8ceb4f51602abbbcb51dfc50c9934b3db\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_51d8995ec6ff988306b912318d95a7f72af1d08d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\3bee15dae11c3ee0949e6aeb2cd279d32ea92c57\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="15857dce424132cb53e37cba16b9d587a6c5c568">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_35431ecd25159ecaccbb801c92857816fcc75831.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\library-2.4.0_948b8985c910b743b1f0ab28e8de103fa9dc8b00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\73449ac9376261228f5ad9ff87dd902edfbc28be\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_a98e54b7501f672e215e83df7d94f07f539936e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\f90375e92d2184658bcabc1bd4d90afbf8b91d58\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e015f5a6691f80b1f71e5299d48933be6a057963">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_7e0454e31d78048204fc651b35e2e742202ef412.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\dcbc0bb756f96769f668d1378236a3ee43879b14\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="acaf8846fcf5556493bdbe075b13ea664bb1e9f5">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_a72aa14d22120a8ef4a7fb2e3d42e937964f437d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\34948725f00e30397fc5a4631498cb0c3bd2ec02\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_83f053f35977ff59269ec9026f0395ab0cd4ffa0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_321fbce8a085825c83811ad99ea90590e3fc4a57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Tarun\AndroidProject\Happie Repo\app\libs\libs.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f4c2c9f2407bd4e20b140f8e2efe2162e7119aa1">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\2\libs_b44220d52541ee0b49f889615d934e0fa0062368\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\d4cb3aa2e7674a7efffa3f6b0a8164b699a70a66\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5bad89ac06f1015490c3332c1cd160be1d17c049">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_e77db919bb289b20fed252465ec38b76970f801c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.android\build-cache\1ab6d431c894df9b59798bbcb76633ba9261581b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79f1c3d55d470e927874165088fc473157f2f965\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\d89885554825b8b8059a023221f03b42d0184741\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f260cdc1a267b17b911022919f19d568e6624229">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_a8bea7362b6125e735b1cdc41ad78916eb9db3af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\81a0501cfc741d97089ee7562e44d9d1a7f5fd2e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_3511d9d77b303b23e65f28cb7109a6f61e77cf83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\c8c742bdd816d03bc5fd14bd7630e1461d804e89\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="885bcb023a9b57ed31c305e2e94e31af909e21c5">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_fbf4aa67f6861ff8f3018656642dfb9f67e7dc41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\a209ca43492ffde8eeb94d13e8f83cbd2398d6f9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4a5da59bfe8bee5a41daa7c26b970b12699ac8db">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_9e0b8495a0c0ec56c80800c276bf1a930dbc7e7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\267c10bd694a837fe59ee3ad869a473e68de7bd5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="68a1346f52b0e623460bf2f70c59c59a7a34bcea">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_04cd9b98364ad9e90c979f22d103697d5863a112.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\0d0ce59d346c5252def17b85ad3390d2d64aa74d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4802b21cc23549f7eba5edb802241091ad998b35">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_36e7690c5507716bcea748cbdac89020ddeacc95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\32d808231b1b79d308a78250445402139e333c47\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9e8c74e789b51b9da4070aeaed71bae36c3d244f">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_9496fcb048f56713092b1dd8a71e157c7159b209.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\0ca2f1b4f4fcc34a29d04935436de6340f3c1d6e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="dd4c42401d36342901ac4280fb92a831f8007f3d">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_1bbc3559f7c464fa2abecd66203ac35b83046308.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\commons-lang\commons-lang\2.6\ce1edb914c94ebc388f086c6827e8bdeec71ac2\commons-lang-2.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-lang-2.6_d8bbf67bf9bbc9236e330320e3eb104869c7a663\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\44836003a3f006eb0e2724fd3f11ad4ddf533995\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="50fde88f529e2c238d72467da774e113f47dc866">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_f6d97e3d110c8da5e8f3745ebe9ffb64771b6cce.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\javax.validation\validation-api\1.1.0.CR2\777d153d3785f9a2af379ecd39dde5273c3ae853\validation-api-1.1.0.CR2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="777d153d3785f9a2af379ecd39dde5273c3ae853">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\validation-api-1.1.0.CR2_cedcaa424decf888eca1c7d23d483b629a68b096\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6d448c2af964f302bba88c64a1e3319654975d4b">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_29bf13ba142a9bb68ef69460058e6065dcd1eb4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sudeep\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_a9818a7669713f4fce2a15c1fb09f75cb3d8da89\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\34a84b697aae6036d83a6dceabbdb5929bae9718\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c10091a128e47ed4ef804bd753c0f45745699756">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_1ecb86519934e488649abf4c05ca9dbf2107c027.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sudeep\.android\build-cache\ae3310f6575d1a56de6b524a110818e4b70cbbb4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5493a7c08b74d424d08a23c68334893cfd2d5ee3">
+        <dex dex="E:\Tarun\AndroidProject\Happie Repo\app\build\intermediates\pre-dexed\debug\classes_e94b8859b5ffd794ed7fb7fed1e074cfb7c38c9a.jar" />
+    </item>
+
+</items>

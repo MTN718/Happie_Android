@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/blockLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@+id/main_appbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/homescreentopbar" />
+        </android.support.design.widget.AppBarLayout>
+        <RelativeLayout android:id="@+id/scrollViewRecyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <TextView android:id="@+id/tabMenuNotificationAction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/swiperefresh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" />
+            </android.support.v4.widget.SwipeRefreshLayout>
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@+id/scrolltop" android:background="@drawable/top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-80.0dip" android:layout_marginRight="16.0dip" android:layout_below="@+id/swiperefresh" android:layout_alignParentRight="true" />
+            <TextView android:textSize="16.0sp" android:gravity="center" android:id="@+id/waterMarkLoader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:layout_centerHorizontal="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bottomBarLinearLayoutHomeScreen" android:layout_width="fill_parent" android:layout_height="50.0dip" android:weightSum="2.0" android:layout_alignParentBottom="true">
+                <LinearLayout android:gravity="center" android:id="@+id/invitationLinearLayoutHomeScreen" android:background="#fff7cb16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.99">
+                    <TextView android:textStyle="bold" android:textColor="@color/black" android:id="@+id/invitationTextViewHomeScreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INVITE A FRIEND" />
+                </LinearLayout>
+                <LinearLayout android:background="#ffffd71b" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.02" />
+                <LinearLayout android:gravity="center" android:id="@+id/addJokeLinearLayoutHomeScreen" android:background="#fff7cb16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.99">
+                    <TextView android:textStyle="bold" android:textColor="@color/black" android:id="@+id/addJokeTextViewHomeScreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UPLOAD A JOKE" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:id="@+id/alertBar" android:background="@drawable/roundboundry" android:paddingLeft="18.0dip" android:paddingTop="2.0dip" android:paddingRight="18.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true">
+                <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@+id/alertBarTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SCROLL TO TOP" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

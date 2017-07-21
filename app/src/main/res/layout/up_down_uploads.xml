@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@+id/update_tool" android:background="#fffdd639" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/up_slide_menu_icon" android:layout_width="wrap_content" android:layout_height="60.0dip">
+        <ImageView android:id="@+id/menu_icon" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@drawable/back_arrow" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/title_text" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginRight="50.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center" android:id="@+id/set_floating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@+id/scrolltop_vote" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/scroll" />
+    </LinearLayout>
+</LinearLayout>

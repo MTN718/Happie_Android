@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="spinner_style" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">#fff7cb16</item>
+        <item name="android:divider">#ffffffff</item>
+        <item name="android:dividerHeight">1.0dip</item>
+        <item name="android:drawableLeft">@drawable/down_arrow</item>
+        <item name="android:popupBackground">@drawable/tabyellowcolor</item>
+        <item name="android:dropDownVerticalOffset">50.0dip</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+    <style name="tooltip_bubble_text">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.25</item>
+    </style>
+    <style name="x" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+
+</resources>

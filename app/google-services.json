@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "711345886553",
+    "project_id": "happie-174408"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711345886553:android:19b31c54c847ad6b",
+        "android_client_info": {
+          "package_name": "com.songu.happie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711345886553-95c07jntb481m955et7rm91h4spoe91a.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "711345886553-r81i46u6a3m6ua64p5ksjanbtkhanf24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.songu.happie",
+            "certificate_hash": "82a91cda9bbc3a93c5bc0dd135325c337baa2783"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQjlMkR9m26kjoktZ6Hv3Yuv3pC41BwLA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
