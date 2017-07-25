@@ -14,18 +14,22 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Constant {
 
-   // http://ruby.argalon.net/getcategories
+    // http://ruby.argalon.net/getcategories
 
     //http://www.argalon.net/comefixme/index.php/App_controller/List_Categories
-   // public static final String BASE_URL = "http://159.203.119.6/~argalon/comefixme/";
+    // public static final String BASE_URL = "http://159.203.119.6/~argalon/comefixme/";
 
 
     //public static final String BASE_URL = "http://www.argalon.net/comefixme/";
 
-    public static final String BASE_URL = "https://www.comefixme.com/";
+    //    public static final String BASE_URL = "https://www.comefixme.com/";
+    public static final String BASE_URL = "http://golvaje.top";
+
+    public static String jSessionId;
 
     public static RetrofitService retrofit = null;
     public static final String SHAREDPREFUSER = "USERINFO";
+    public static final String ISUSERLOGIN = "LOGINSTATUS";
 
     public static OkHttpClient getinfo() {
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
@@ -34,11 +38,9 @@ public class Constant {
     }
 
 
-
     public static final RetrofitService retrofitService = new Retrofit.Builder()
             .baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create()).client(getinfo()).build().create(RetrofitService.class);
 
 
-
-
 }
+

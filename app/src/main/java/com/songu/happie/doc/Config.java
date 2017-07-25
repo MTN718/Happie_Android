@@ -6,6 +6,7 @@ package com.songu.happie.doc;
 public class Config {
     public static String mBaseUrl = "http://golvaje.top/api/";
     public static String mImageBaseUrl = "http://golvaje.top/";
+    public static final String LOGIN_URL = mBaseUrl + "/auth";
 
     public static String mLoadJokes = mBaseUrl + "jokes";
     public static String mLoadJokesPopular = mBaseUrl + "jokes/popular";

@@ -6,6 +6,7 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.Dialog;
+import android.app.NotificationManager;
 import android.app.ProgressDialog;
 import android.content.ComponentName;
 import android.content.Context;
@@ -18,9 +19,11 @@ import android.content.pm.Signature;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
+import android.media.ExifInterface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.ParseException;
@@ -49,11 +52,18 @@ import com.google.android.gms.location.LocationSettingsStatusCodes;
 import com.google.gson.Gson;
 import com.songu.happie.R;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
@@ -73,6 +83,7 @@ public class Utility {
     private static final int TWO_MINUTES = 1000 * 60 * 2;
     private static String PREFERENCES = "taskuser";
     private static boolean hasImmersive;
+    private static final int BUFFER_SIZE = 1024;
     private static boolean cached = false;
     private static Dialog dialog;
 
@@ -224,6 +235,59 @@ public class Utility {
             result = context.getResources().getDimensionPixelSize(resourceId);
         }
         return result;
+    }
+
+    public final static Bitmap getBitmapFromFile(String filePath, int width, int height) {
+        BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inJustDecodeBounds = true;
+        BitmapFactory.decodeFile(filePath, options);
+
+        // options.inSampleSize = 4;
+        options.inSampleSize = calculateInSampleSize(options, width, height);
+
+        options.inJustDecodeBounds = false;
+        Bitmap bitmap = BitmapFactory.decodeFile(filePath, options);
+
+        ExifInterface ei = null;
+        try {
+            ei = new ExifInterface(filePath);
+        } catch (IOException e) {
+            AppLogger.getInstance().writeException(e);
+        }
+        int orientation = ei.getAttributeInt(ExifInterface.TAG_ORIENTATION, ExifInterface.ORIENTATION_NORMAL);
+
+        switch (orientation) {
+            case ExifInterface.ORIENTATION_ROTATE_90:
+                bitmap = rotateImage(bitmap, 90);
+                break;
+            case ExifInterface.ORIENTATION_ROTATE_180:
+                // bitmap = rotateImage(bitmap, 180);
+                bitmap = rotateImage(bitmap, 90);
+                break;
+        }
+
+        return bitmap;
+    }
+
+    public static int calculateInSampleSize(BitmapFactory.Options options, int reqWidth, int reqHeight) {
+        if (reqWidth == 0 && reqHeight == 0) {
+            return 1;
+        }
+        final int height = options.outHeight;
+        final int width = options.outWidth;
+        int inSampleSize = 1;
+        if (height > reqHeight || width > reqWidth) {
+            final int heightRatio = Math.round((float) height / (float) reqHeight);
+            final int widthRatio = Math.round((float) width / (float) reqWidth);
+            inSampleSize = heightRatio < widthRatio ? widthRatio : heightRatio;
+        }
+        return inSampleSize;
+    }
+
+    private static Bitmap rotateImage(Bitmap pBitmap, int angle) {
+        Matrix matrix = new Matrix();
+        matrix.postRotate(angle);
+        return Bitmap.createBitmap(pBitmap, 0, 0, pBitmap.getWidth(), pBitmap.getHeight(), matrix, true);
     }
 
     @SuppressLint("NewApi")
@@ -770,11 +834,108 @@ public class Utility {
         return map;
     }
 
+    /**
+     * Downloading push notification image before displaying it in
+     * the notification tray
+     */
+    public static Bitmap getBitmapFromURL(String strURL) {
+        try {
+            URL url = new URL(strURL);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setDoInput(true);
+            connection.connect();
+            InputStream input = connection.getInputStream();
+            Bitmap myBitmap = BitmapFactory.decodeStream(input);
+            return myBitmap;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public static String getErrorMsg(String msg) {
+        try {
+            if (msg != null) {
+                JSONObject jsonObject = new JSONObject(msg);
+                return jsonObject.getString("errorMsg");
+            } else {
+                return MessageConstants.SOMETHING_WENT_WRONG;
+            }
+        } catch (JSONException e) {
+            AppLogger.getInstance().writeException(e);
+            return MessageConstants.SOMETHING_WENT_WRONG;
+        }
+
+    }
+
+    public static String setErrorMsg(String msg) {
+        JSONObject jsonObject = new JSONObject();
+        try {
+            if (msg != null) {
+                jsonObject.put(MessageConstants.ERROR_MSG, msg);
+                return jsonObject.toString();
+            } else {
+                jsonObject.put(MessageConstants.ERROR_MSG, MessageConstants.SOMETHING_WENT_WRONG);
+                return jsonObject.toString();
+            }
+        } catch (JSONException e) {
+            AppLogger.getInstance().writeException(e);
+            return MessageConstants.SOMETHING_WENT_WRONG;
+        }
+    }
+    public synchronized static String readData(InputStreamReader rd) {
+        try {
+            StringBuffer sb = new StringBuffer();
+            char[] charBuffer = new char[BUFFER_SIZE];
+            while (true) {
+                int read = rd.read(charBuffer, 0, charBuffer.length);
+                if (read == -1)
+                    break;
+                sb.append(charBuffer, 0, read);
+            }
+            return sb.toString();
+        } catch (IOException e) {
+        } finally {
+            try {
+                rd.close();
+            } catch (IOException e) {
+            }
+        }
+        return "";
+    }
+
+    public synchronized static byte[] readData(InputStream rd) {
+
+        ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+        int nRead;
+        byte[] data = new byte[BUFFER_SIZE];
+        try {
+            while ((nRead = rd.read(data, 0, data.length)) != -1) {
+                buffer.write(data, 0, nRead);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        finally {
+            try {
+                rd.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return data;
+    }
+
     public static boolean isValidEmailAddress(String emailAddress) {
         String expression = "[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})";
         CharSequence inputStr = emailAddress;
         Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(inputStr);
         return matcher.matches();
+    }
+
+    public static void clearNotifications(Context context) {
+        NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.cancelAll();
     }
 }

@@ -1,15 +1,17 @@
 package com.songu.happie.model;
 
-import com.google.gson.annotations.SerializedName;
+import java.io.Serializable;
 
 /**
  * Created by Administrator on 7/17/2017.
  */
 
-public class UserModel {
+public class UserModel implements Serializable {
 
-    @SerializedName("name")
-    public String name;
+    private String name;
+    private String id;
+    private String email;
+
 
     public String getName() {
         return name;
@@ -17,5 +19,21 @@ public class UserModel {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

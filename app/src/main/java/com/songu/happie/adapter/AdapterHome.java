@@ -31,6 +31,7 @@ public class AdapterHome extends RecyclerView.Adapter<AdapterHome.ViewHolder> {
     public AdapterHome(List<HappieModel> tickets) {
         m_lstItems = tickets;
     }
+
     @Override
     public AdapterHome.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 

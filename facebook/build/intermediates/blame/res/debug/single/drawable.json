@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/drawable/messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/drawable/com_facebook_button_login_silver_background.xml"
+    }
+]

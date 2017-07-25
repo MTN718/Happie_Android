@@ -1,33 +1,35 @@
 {
   "project_info": {
-    "project_number": "711345886553",
-    "project_id": "happie-174408"
+    "project_number": "682402401995",
+    "firebase_url": "https://happy-ea55d.firebaseio.com",
+    "project_id": "happy-ea55d",
+    "storage_bucket": "happy-ea55d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:711345886553:android:19b31c54c847ad6b",
+        "mobilesdk_app_id": "1:682402401995:android:19b31c54c847ad6b",
         "android_client_info": {
           "package_name": "com.songu.happie"
         }
       },
       "oauth_client": [
         {
-          "client_id": "711345886553-95c07jntb481m955et7rm91h4spoe91a.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "711345886553-r81i46u6a3m6ua64p5ksjanbtkhanf24.apps.googleusercontent.com",
+          "client_id": "682402401995-t4hm1p1vqcro84mte3mv9gv1inq77ol6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.songu.happie",
-            "certificate_hash": "82a91cda9bbc3a93c5bc0dd135325c337baa2783"
+            "certificate_hash": "7360104329df0d103eec951180f2005b12ba2c6f"
           }
+        },
+        {
+          "client_id": "682402401995-rn22k9hsfiglckivnroem4q297r1b1nm.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCQjlMkR9m26kjoktZ6Hv3Yuv3pC41BwLA"
+          "current_key": "AIzaSyDWR5INa0daDETsx_xZAOJBdRrUlK_3zZI"
         }
       ],
       "services": {
@@ -35,11 +37,16 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682402401995-rn22k9hsfiglckivnroem4q297r1b1nm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
-          "status": 1
+          "status": 2
         }
       }
     }

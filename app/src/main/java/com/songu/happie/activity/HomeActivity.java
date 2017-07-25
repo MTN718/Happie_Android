@@ -2,11 +2,9 @@ package com.songu.happie.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -15,19 +13,24 @@ import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.facebook.drawee.view.SimpleDraweeView;
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
 import com.songu.happie.R;
 import com.songu.happie.adapter.AdapterHome;
 import com.songu.happie.doc.Globals;
 import com.songu.happie.model.HappieModel;
 import com.songu.happie.service.IServiceResult;
 import com.songu.happie.service.ServiceManager;
+import com.songu.happie.util.Constant;
+import com.songu.happie.util.Utility;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +39,8 @@ import java.util.List;
  * Created by Administrator on 7/14/2017.
  */
 
-public class HomeActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener,View.OnClickListener,IServiceResult {
+public class HomeActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener,
+        View.OnClickListener, IServiceResult {
 
 
     public DrawerLayout mDrawerLayout;
@@ -71,6 +75,7 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private int currentCategory = 0;
     private int currentType = 0;
+    private GoogleApiClient mGoogleApiClient;
 
     protected void onCreate(Bundle paramBundle) {
         super.onCreate(paramBundle);
@@ -118,8 +123,7 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
                 swipeRefreshLayout.setRefreshing(false);
-                if (newState == 0)
-                {
+                if (newState == 0) {
 
                 }
             }
@@ -150,25 +154,21 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         });
         loadJokesByFilter();
-        if (Globals.mAccount == null)
-        {
+        if (Globals.mAccount == null) {
             txtUsername.setText("Guest");
             txtLogin.setText("Log In");
-        }
-        else
-        {
-            txtUsername.setText("Guest");
+        } else {
+            txtUsername.setText(Globals.mAccount.getName());
             txtLogin.setText("Log Out");
         }
     }
 
-    public void loadJokesByFilter()
-    {
+    public void loadJokesByFilter() {
         swipeRefreshLayout.setRefreshing(true);
-        ServiceManager.serviceLoadJokes(this,currentCategory,currentType);
+        ServiceManager.serviceLoadJokes(this, currentCategory, currentType);
     }
-    public void initFilter()
-    {
+
+    public void initFilter() {
         lstCategory.clear();
         lstCategory.add("Popular");
         lstCategory.add("Latest");
@@ -200,8 +200,7 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onClick(View v) {
-        switch (v.getId())
-        {
+        switch (v.getId()) {
             case R.id.slide_menu_icon:
                 mDrawerLayout.openDrawer(mDrawerPane);
 
@@ -216,45 +215,64 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
             case R.id.invitationLinearLayoutHomeScreen:
                 break;
             case R.id.addJokeLinearLayoutHomeScreen:
-                Intent m = new Intent(this,AddJokeActivity.class);
+                Intent m = new Intent(this, AddJokeActivity.class);
                 this.startActivity(m);
                 break;
             case R.id.youruploads:
                 if (Globals.mAccount == null) {
                     m = new Intent(this, LoginActivity.class);
-                    this.startActivityForResult(m,100);
-                }
-                else
-                {
-                    m = new Intent(this,MyUploadActivity.class);
+                    this.startActivityForResult(m, 100);
+                } else {
+                    m = new Intent(this, MyUploadActivity.class);
                     this.startActivity(m);
                 }
                 break;
             case R.id.edit_profile:
                 if (Globals.mAccount == null) {
                     m = new Intent(this, LoginActivity.class);
-                    this.startActivityForResult(m,100);
-                }
-                else
-                {
-                    m = new Intent(this,UserProfileActivity.class);
+                    this.startActivityForResult(m, 100);
+                } else {
+                    m = new Intent(this, UserProfileActivity.class);
                     this.startActivity(m);
                 }
                 break;
             case R.id.profile_rate:
                 break;
             case R.id.logout:
-                if (Globals.mAccount == null) {
-                    m = new Intent(this, LoginActivity.class);
-                    this.startActivityForResult(m,100);
-                }
-                else
-                {
+                if (mGoogleApiClient.isConnected()) {
+                    Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(
+                            new ResultCallback<Status>() {
+                                @Override
+                                public void onResult(Status status) {
+
+                                    Toast.makeText(getApplicationContext(), "Logged Out", Toast.LENGTH_SHORT).show();
+                                    Utility.setStringPreferences(HomeActivity.this, Constant.SHAREDPREFUSER, "");
+                                    Utility.setBooleanPreferences(HomeActivity.this, Constant.ISUSERLOGIN, false);
+                                    Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+                                    startActivity(i);
+                                    finish();
+                                }
+                            });
+                } else {
 
                 }
                 break;
         }
     }
+
+    @Override
+    protected void onStart() {
+
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+        mGoogleApiClient = new GoogleApiClient.Builder(this)
+                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+                .build();
+        mGoogleApiClient.connect();
+        super.onStart();
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // Check which request we're responding to
@@ -262,11 +280,11 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
 
         }
     }
+
     @Override
     public void onResponse(int code) {
         swipeRefreshLayout.setRefreshing(false);
-        switch (code)
-        {
+        switch (code) {
             case 200:
                 adapterHome = new AdapterHome(Globals.lstJokes);
                 lstHappies.setAdapter(adapterHome);

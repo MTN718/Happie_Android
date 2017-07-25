@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/layout/com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/layout/com_facebook_activity_layout.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/layout/com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_small.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/layout/messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_large.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/layout/messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/layout/messenger_button_send_white_large.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/layout/messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/layout/messenger_button_send_white_small.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/layout/messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_round.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/layout/messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/layout/messenger_button_send_white_round.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/layout/messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/res/merged/debug/layout/com_facebook_login_fragment.xml",
+        "source": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/layout/com_facebook_login_fragment.xml"
+    }
+]
