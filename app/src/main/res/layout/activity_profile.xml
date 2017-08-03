@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeRefresh"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearlayouttohide"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/linearlayoutClose"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip" />
+
+                <TextView
+                    android:id="@+id/open"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingBottom="20.0dip"
+                    android:paddingLeft="5.0dip"
+                    android:paddingTop="20.0dip"
+                    android:text="Select Language/s"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0dip"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.09"
+                    android:gravity="right" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:src="@drawable/up_arrow" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2.0dip"
+                android:background="#ffe1e1e1"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/third_select"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#ffffffff"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="All Languages"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="#ff333333"
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <CheckBox
+                    android:id="@+id/chkAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:button="@drawable/checkbox_drawable"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="#ffe3e3e3"
+                android:visibility="visible" />
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:choiceMode="multipleChoice" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffd200"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20.0dip">
+
+                        <com.facebook.drawee.view.GenericDraweeView
+                            android:id="@+id/trVouchersImage"
+                            android:layout_width="100.0dip"
+                            android:layout_height="100.0dip"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10.0dip"
+                            fresco:placeholderImage="@drawable/male"
+                            fresco:placeholderImageScaleType="centerCrop"
+                            fresco:roundAsCircle="true"
+                            fresco:roundBottomLeft="false"
+                            fresco:roundBottomRight="false"
+                            fresco:roundedCornerRadius="5.0dip"
+                            fresco:roundingBorderWidth="1.0dip" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/trVouchersImage"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="35.0dip"
+                            android:layout_marginTop="95.0dip"
+                            android:background="@drawable/edit_pic_icn" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center|left"
+                        android:orientation="horizontal"
+                        android:paddingBottom="35.0dip"
+                        android:paddingLeft="20.0dip"
+                        android:paddingRight="20.0dip"
+                        android:paddingTop="35.0dip">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:src="@drawable/editprofile_edit" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="25.0dip"
+                            android:text="Display Name"
+                            android:textSize="11.0sp" />
+
+                        <EditText
+                            android:id="@+id/editScreenEditText"
+                            android:layout_width="165.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:background="@android:color/transparent"
+                            android:singleLine="true"
+                            android:textSize="16.0sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffffffff" />
+
+                    <LinearLayout
+                        android:id="@+id/second_select_language"
+                        android:layout_width="fill_parent"
+                        android:layout_height="60.0dip"
+                        android:layout_gravity="center"
+                        android:background="#fff3f3f3"
+                        android:orientation="horizontal"
+                        android:paddingLeft="20.0dip"
+                        android:paddingRight="20.0dip"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="10.0dip"
+                            android:src="@drawable/languages" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.0"
+                            android:text="Select Language/s"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.09" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/arrow" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/select_language"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#fff3f3f3"
+                        android:orientation="horizontal"
+                        android:paddingBottom="15.0dip"
+                        android:paddingLeft="20.0dip"
+                        android:paddingRight="20.0dip"
+                        android:paddingTop="15.0dip">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="10.0dip"
+                            android:src="@drawable/languages" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.0"
+                            android:text="Select Language/s"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/editScreenSelectedLanguage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.09" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/arrow" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffe2e2e2" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffffffff" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#fff3f3f3"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10.0dip"
+                        android:paddingLeft="20.0dip"
+                        android:paddingRight="20.0dip"
+                        android:paddingTop="10.0dip">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="10.0dip"
+                            android:src="@drawable/show" />
+
+                        <LinearLayout
+                            android:layout_width="100.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/NFCTextView"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="Show Adult Content"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingRight="10.0dip"
+                                android:text="Only switch on if you are 18 years or older."
+                                android:textSize="11.0sp" />
+                        </LinearLayout>
+
+                        <Switch
+                            android:id="@+id/editScreenNSESwitch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:switchTextAppearance="@style/x"
+                            android:textColor="@color/black"
+                            android:textOff="OFF"
+                            android:textOn="ON"
+                            android:thumb="@drawable/customswitchselector"
+                            android:track="@drawable/custom_track" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffe2e2e2" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffffffff" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#fff3f3f3"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10.0dip"
+                        android:paddingLeft="20.0dip"
+                        android:paddingRight="20.0dip"
+                        android:paddingTop="10.0dip">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="10.0dip"
+                            android:src="@drawable/notifications" />
+
+                        <TextView
+                            android:id="@+id/APPNotificatonTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.0"
+                            android:text="App Notifications"
+                            android:textStyle="bold" />
+
+                        <Switch
+                            android:id="@+id/APPNotificationSwitch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:switchTextAppearance="@style/x"
+                            android:textOff="OFF"
+                            android:textOn="ON"
+                            android:thumb="@drawable/customswitchselector"
+                            android:track="@drawable/custom_track" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffe2e2e2"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffffffff"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#fff3f3f3"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10.0dip"
+                        android:paddingLeft="20.0dip"
+                        android:paddingRight="20.0dip"
+                        android:paddingTop="10.0dip"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="10.0dip"
+                            android:src="@drawable/sound" />
+
+                        <TextView
+                            android:id="@+id/InappsoundTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.0"
+                            android:text="In-App Sound"
+                            android:textStyle="bold" />
+
+                        <Switch
+                            android:id="@+id/InappsoundSwitch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:switchTextAppearance="@style/x"
+                            android:textOff="OFF"
+                            android:textOn="ON"
+                            android:thumb="@drawable/customswitchselector"
+                            android:track="@drawable/custom_track" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/submit_profile"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip">
+
+            <Button
+                android:id="@+id/editScreenSaveChangedButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="@color/yelow"
+                android:text="Save Changes"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

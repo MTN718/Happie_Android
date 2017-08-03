@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#fffdd639" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@+id/edit_back_button" android:padding="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:src="@drawable/back_arrow" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center" android:id="@+id/headingTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add A Joke" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="right" android:id="@+id/cancel_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_weight="0.2">
+        <ImageView android:id="@+id/cancel_icon" android:padding="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/cancel" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/res/values-in/messenger_button_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1164,
+                        "endColumn": 58,
+                        "endOffset": 1220
+                    }
+                }
+            }
+        ]
+    }
+]

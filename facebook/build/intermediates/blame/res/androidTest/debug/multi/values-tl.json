@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-tl/values-tl.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "/home/ist/AndroidStudioWorkspace/work/132Happie_0719/Happie_Android/facebook/build/intermediates/bundles/debug/res/values-tl/values-tl.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 62,
+                        "endOffset": 113
+                    }
+                }
+            }
+        ]
+    }
+]

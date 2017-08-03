@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/uploadscreen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/up_down_uploads" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/error_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/recycler_common_myaccount_votes" />
+        <RelativeLayout android:id="@+id/alertBar" android:background="@drawable/roundboundry" android:paddingLeft="18.0dip" android:paddingTop="2.0dip" android:paddingRight="18.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@+id/alertBarTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SCROLL TO TOP" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
